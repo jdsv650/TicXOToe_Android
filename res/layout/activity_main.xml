@@ -1,0 +1,168 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButtonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/forty_four"
+            android:src="@drawable/arrowcircleleft" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ten_dp"
+                android:checked="true"
+                android:text="Versus Computer" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Intermediate" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hard" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos1_1"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos1_2"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos1_3"
+            android:src="@drawable/xobackground" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos2_1"
+            android:paddingLeft="@dimen/ten_dp"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos2_2"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos2_3"
+            android:src="@drawable/xobackground" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos3_1"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos3_2"
+            android:src="@drawable/xobackground" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="@dimen/five_dp"
+            android:contentDescription="@string/pos3_3"
+            android:src="@drawable/xobackground" />
+    </TableRow>
+
+</TableLayout>
