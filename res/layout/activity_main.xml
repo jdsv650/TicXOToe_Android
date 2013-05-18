@@ -3,7 +3,7 @@
     android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C0C0C0" >
+    android:background="@drawable/beachsand4" >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -11,25 +11,9 @@
         android:clickable="false"
         android:gravity="center_horizontal" >
 
-        <ImageButton
-            android:id="@+id/imageButtonReset"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginRight="@dimen/forty_four"
-            android:src="@drawable/arrowcircleleft" />
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent" >
-
-            <CheckBox
-                android:id="@+id/checkBox1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/ten_dp"
-                android:checked="true"
-                android:text="Versus Computer" />
 
         </LinearLayout>
     </LinearLayout>
@@ -62,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Intermediate" />
+                android:text="Medium" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
@@ -164,5 +148,22 @@
             android:contentDescription="@string/pos3_3"
             android:src="@drawable/xobackground" />
     </TableRow>
+
+    <TextView
+        android:id="@+id/GameOverTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Cat&apos;s Game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/forty_four" />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ResetButtonClicked"
+        android:text="Reset" />
 
 </TableLayout>

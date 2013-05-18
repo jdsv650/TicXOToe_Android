@@ -14,5 +14,6 @@
     <string name="pos3_2">Position3_2</string>
     <string name="pos3_3">Position3_3</string>
     <string name="pos4_1">Position4_1</string>
+    <string name="title_activity_my_main">Tic XO Toe</string>
 
 </resources>
